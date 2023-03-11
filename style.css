@@ -1,0 +1,115 @@
+*  {box-sizing: border-box;}
+
+.navbar-brand {font-size: 27.45px;
+              font-weight: 900;}
+
+.name   {font-weight: 400;
+    font-size: 18px;}
+
+.img2   {border-radius: 50px;
+    height: 39px;
+    width: 39px;}
+
+h1  {margin-left:  100px;
+    font-weight: 700;
+    font-size: 72px;}
+
+p   {margin-left: 100px;}
+
+.ellipse {right: 0;
+        height: 707px;}
+
+.docs    {right:  80px; }
+
+.nav-text   {color: #000000; }
+
+.footer > a {color: black;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;}
+
+.brothers {justify-content: baseline;}
+
+span {font-size: 14px;}
+
+.p   {font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9B9B9B;}
+
+.download   { border: 2px solid #5736B8;
+    width: 273px;
+    height: 60px;
+    border-radius: 100px;
+    margin: 0; 
+    padding: 0;
+    background-color: white;
+    margin-top: 30px;
+    }
+
+.line  { width: 1px;}
+
+.border-right  { border-right: 1px solid #5736B8;}
+
+.mark-heading {
+    width: 473px;
+    height: 203px;
+    position: relative;
+    align-items: center;
+    margin-inline: auto;
+    flex-direction: column;
+}
+
+.dolar {
+    margin-inline: auto;
+    } 
+
+.mark-heading-linie {
+    color: #5956E8;
+}
+
+.mark-heading-text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    color: #292930;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+}
+
+.mark-heading-button {
+    margin-top: 14px;
+}
+
+.mark-heading-text2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+
+    color: #292930;
+}
+
+.download  { width: 402px;
+    height: 60px;}
+
+.euro  {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    color: #1B1B1B;}
+
+.icon  {margin-left: -15px; font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1B1B1B;}
+
+
+.border-right  { border-right: 1px solid #5736B8;
+    height: 56px;}
