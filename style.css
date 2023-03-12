@@ -45,11 +45,13 @@ h1  {margin-left:  100px;
 
 p   {margin-left: 100px;}
 
-.ellipse {right: 0;
+.speaker {right: 0;
     Width: 840px;
-    Height: 529px}
+    Height: 529px;
+    z-index: -1;
+    position: absolute; }
 
-.docs    {
+.bubbles    {
     width: 889.5px;
     height: 462px;}
 
@@ -59,12 +61,9 @@ p   {margin-left: 100px;}
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
+
 }
-
-.container-foot  {z-index: 1;}
-
-.footer  {z-index: 5}
-
+    
 .brothers {justify-content: baseline;}
 
 span {font-size: 14px;}
