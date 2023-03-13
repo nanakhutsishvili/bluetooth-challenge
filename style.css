@@ -5,6 +5,11 @@
     src: url(Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto' ;
+    src: url(Roboto-Regular.ttf);
+}
+
 .navbar-brand {
     font-family: 'Poppins';
     font-style: normal;
@@ -17,9 +22,10 @@
 .bg-image  {height: 529px;
     right: 0;}
 
-.my-col     { padding: 110px;}
+.my-col     { padding-left: 80px;
+    padding-top: 170px;}
 
-.my-col-1  {padding: 32px;
+.my-col1  {padding: 32px;
         padding-top: 0px;}
 
 .img1  {margin-top: 40px;
@@ -49,25 +55,28 @@ h1  {margin-left:  100px;
 p   {margin-left: 100px;}
 
 .speaker {right: 0;
-    Width: 700px;
-    Height: 700px;
-    z-index: -1;
-    position: absolute; }
+    Height: 529px;
+    width: 820px;
+    margin-top: 65px;}
 
 .bubbles    {
     right: 0;
-    width: 700px;
-    height: 529px;}
+    height: 450px;}
+
+.fixed-size  {width: 1400px;}
 
 .nav-text   {color: #000000; }
 
 .footer1  {position: absolute;
-    bottom: 0;}
+    bottom: 0;
+    width: 1350px;
+    }
 
 .footer > a {color: black;
     font-weight: 700;
     font-size: 14px;
     text-decoration: none;
+    justify-content: space-between;
 
 }
     
@@ -85,10 +94,10 @@ span {font-size: 14px;}
     opacity: 0.8;
     margin-left: 0px;}
 
-.download   { border: 2px solid #5736B8;
-    width: 273px;
-    height: 60px;
+.download   { border: 3px solid #1B1B1B;
     border-radius: 100px;
+    width: 402px;
+    height: 60px;
     margin: 0; 
     padding: 0;
     background-color: #FAD961;
@@ -97,8 +106,6 @@ span {font-size: 14px;}
     }
 
 .line  { width: 1px;}
-
-.border-right  { border-right: 1px solid #5736B8;}
 
 .mark-heading {
     width: 473px;
@@ -123,7 +130,7 @@ span {font-size: 14px;}
         } 
 
 .mark-heading-linie {
-    color: #5956E8;
+    color: #1B1B1B;;
 }
 
 .mark-heading-text {
@@ -153,9 +160,6 @@ span {font-size: 14px;}
     color: #292930;
 }
 
-.download  { width: 402px;
-    height: 60px;}
-
 .euro  {
     font-family: 'Roboto';
     font-weight: 500;
@@ -163,7 +167,8 @@ span {font-size: 14px;}
     line-height: 38px;
     color: #1B1B1B;}
 
-.icon  {margin-left: -15px; font-family: 'Roboto';
+.icon  {margin-left: -15px; 
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -173,5 +178,10 @@ span {font-size: 14px;}
 .icon-2   {margin-left: 32px;}
 
 
-.border-right  { border-right: 1px solid #5736B8;
-    height: 56px;}
+.border-right  { border-right: 1px solid #1B1B1B;
+    height: 56px;
+    padding-bottom: 10px;}
+
+.row-1   {margin-bottom: 0px;}
+
+.white   {color: white !important;}
