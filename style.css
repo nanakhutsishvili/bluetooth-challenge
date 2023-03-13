@@ -14,9 +14,12 @@
     color: #000000;
     margin-top: 10px;}
 
-.col-md-5     { padding: 110px;}
+.bg-image  {height: 529px;
+    right: 0;}
 
-.col-3  {padding: 32px;
+.my-col     { padding: 110px;}
+
+.my-col-1  {padding: 32px;
         padding-top: 0px;}
 
 .img1  {margin-top: 40px;
@@ -46,16 +49,20 @@ h1  {margin-left:  100px;
 p   {margin-left: 100px;}
 
 .speaker {right: 0;
-    Width: 840px;
-    Height: 529px;
+    Width: 700px;
+    Height: 700px;
     z-index: -1;
     position: absolute; }
 
 .bubbles    {
-    width: 889.5px;
-    height: 462px;}
+    right: 0;
+    width: 700px;
+    height: 529px;}
 
 .nav-text   {color: #000000; }
+
+.footer1  {position: absolute;
+    bottom: 0;}
 
 .footer > a {color: black;
     font-weight: 700;
