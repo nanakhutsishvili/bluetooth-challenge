@@ -67,7 +67,7 @@ p   {margin-left: 100px;}
 
 .nav-text   {color: #000000; }
 
-.footer1  {position: absolute;
+.footer1  {position: relative;
     bottom: 0;
     width: 1350px;
     }
